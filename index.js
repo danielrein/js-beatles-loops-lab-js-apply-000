@@ -13,6 +13,9 @@ function johnLennonFacts(factsArray) {
   return factsArray
 }
 
+function iLoveTheBeatles(n) {
+  
+}
 
 describe('Beatles Loops', function() {
   it("returns an array of strings containing what instruments each musician plays", function() {
