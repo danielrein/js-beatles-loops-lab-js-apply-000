@@ -1,7 +1,7 @@
 theBeatlesPlay(musicians, instruments) {
   let stringsArray = []
   for (i = 0; i < musicians.length; i++ ) {
-    stringsArray.push(`${musicians[i]} plays ${instruments}`)
+    stringsArray.push(`${musicians[i]} plays ${instruments[i]}`)
   }
 }
 
