@@ -3,6 +3,7 @@ theBeatlesPlay(musicians, instruments) {
   for (i = 0; i < musicians.length; i++ ) {
     stringsArray.push(`${musicians[i]} plays ${instruments[i]}`)
   }
+  return stringsArray
 }
 
 
