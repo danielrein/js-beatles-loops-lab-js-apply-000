@@ -15,6 +15,10 @@ function johnLennonFacts(factsArray) {
 
 function iLoveTheBeatles(n) {
   let array = []
+  do {
+    array.push('I love the Beatles!');
+    n += 1
+  } while n < 15
 }
 
 describe('Beatles Loops', function() {
