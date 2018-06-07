@@ -1,9 +1,16 @@
-theBeatlesPlay(musicians, instruments) {
+function theBeatlesPlay(musicians, instruments) {
   let stringsArray = []
   for (i = 0; i < musicians.length; i++ ) {
     stringsArray.push(`${musicians[i]} plays ${instruments[i]}`)
   }
   return stringsArray
+}
+
+function johnLennonFacts(factsArray) {
+  for (let fact in factsArray) {
+    fact += '!!!'
+  }
+  return factsArray
 }
 
 
