@@ -1,7 +1,7 @@
 function theBeatlesPlay(musicians, instruments) {
-  let stringsArray = []
+  let phrases = []
   for (i = 0; i < musicians.length; i++ ) {
-    stringsArray.push(`${musicians[i]} plays ${instruments[i]}`)
+    phrases.push(`${musicians[i]} plays ${instruments[i]}`)
   }
   return stringsArray
 }
@@ -14,7 +14,7 @@ function johnLennonFacts(factsArray) {
 }
 
 function iLoveTheBeatles(n) {
-  
+  let array = []
 }
 
 describe('Beatles Loops', function() {
